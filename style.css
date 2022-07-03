@@ -19,8 +19,8 @@
     font-size: 22px;
     float: right;
     display: flex;
-    
-    
+   
+   
 }
 
 .main-div ul li {
@@ -30,10 +30,16 @@
     background-color: brown;
     border: 2px solid white;
     border-radius: 50px;
+    width: 120px;
 }
 
+.main-div ul li:hover{
+    background: rgb(189, 53, 243);
+  border-radius: 50px;
+}
 .main-div ul li a {
     padding: 15px;
     color: white;
     text-decoration: none;
+   
 }
