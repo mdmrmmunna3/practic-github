@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#container {
+    background-color: #00ffff71;
+    width: 100%;
+    height: 90px;
+}
+.main-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-menu h1 {
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+    /* font-family: 'The Nautigal', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Dancing Script', cursive; */
+}
+
+.main-menu ul {
+    display: flex;
+}
+
+.main-menu ul li {
+    list-style: none;
+    margin-right: 30px;
+    background-color: rgba(137, 43, 226, 0.705);
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.main-menu ul li:hover {
+    background-color: rgba(165, 42, 42, 0.911);
+}
+
+.main-menu ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
